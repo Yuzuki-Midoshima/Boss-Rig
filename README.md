@@ -1,6 +1,6 @@
 # Boss Character Rig　![Maya](https://img.shields.io/badge/Autodesk%20Maya-2026-0696D7)
 
-![Boss Character Rig](images/Boss.png)
+![Boss Character Rig](docs/images/Boss.png)
 
 Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**です。
 
@@ -14,25 +14,25 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 私はキャラクターのリギングを担当し、アニメーターからの要望をもとに、操作性や可動範囲の調整を行いました。
 ### Idle
 
-![Boss Idle](gifs/Boss_idle.gif)
+![Boss Idle](docs/gifs/Boss_idle.gif)
 
 基本姿勢でのリグの変形と、各パーツの追従を確認できます。
 
 ### Attack
 
-![Boss Attack](gifs/Boss_L_attack_end.gif)
+![Boss Attack](docs/gifs/Boss_L_attack_end.gif)
 
 攻撃モーションで、大きくポーズを変化させた際のリグの挙動を確認できます。
 
 ### Small Attack
 
-![Boss Small Attack](gifs/Boss_Rig_small_attack_end.gif)
+![Boss Small Attack](docs/gifs/Boss_Rig_small_attack_end.gif)
 
 攻撃動作における各部位の可動と、非人型構造での変形を確認できます。
 
 ### Big Beam
 
-![Boss Big Beam](gifs/Boss_Rig_Big_beam_end.gif)
+![Boss Big Beam](docs/gifs/Boss_Rig_Big_beam_end.gif)
 
 大きなアクション時のシルエット変化と、背面を含む各パーツの可動範囲を確認できます。
 
@@ -44,7 +44,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 
 ## Overview
 
-![Boss Rig Overview](images/boss_rig_wireframe.png)
+![Boss Rig Overview](docs/images/boss_rig_wireframe.png)
 
 * **Software:** Autodesk Maya2026
 
@@ -73,7 +73,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 ## Rigging Approach
 
 ### Existing Rig Reuse
-![Rig Overview](gifs/rig_overview.gif)
+![Rig Overview](docs/gifs/rig_overview.gif)
 
 制作時間を短縮するため、以前制作した**Diana Character Rigの構造やリグシステムをベースとして再利用**しました。
 
@@ -86,7 +86,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 ---
 
 ### Non-Humanoid Structure
-![Back Parts Control](gifs/back_parts_control.gif)
+![Back Parts Control](docs/gifs/back_parts_control.gif)
 
 モデルの形状と実際に必要となる動きを確認しながら、
 
@@ -109,7 +109,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 
 ## Back Parts Control
 
-![Back Parts](images/back_parts.png)
+![Back Parts](docs/images/back_parts.png)
 
 アニメーターから、
 
@@ -128,7 +128,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 
 
 ## Set Driven Key
-![Beam SDK](gifs/beam_sdk.gif)
+![Beam SDK](docs/gifs/beam_sdk.gif)
 
 一部の動作には**Set Driven Key（SDK）**を使用しています。後ろのパーツからビームを出すということでその際のアニメーションを一括で制御できるようにしています。
 
@@ -136,7 +136,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 
 リグ内部の複雑さをアニメーター側へ持ち込まず、**必要な操作をできるだけ少ない入力にまとめること**を意識しています。
 
-![SDK Attribute](images/sdk_attribute.png)
+![SDK Attribute](docs/images/sdk_attribute.png)
 
 ---
 
