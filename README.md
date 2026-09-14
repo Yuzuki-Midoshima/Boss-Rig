@@ -45,6 +45,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 ## Overview
 
 ![Boss Rig Overview](docs/images/boss_rig_overview.png)
+![Boss Rig Overview](docs/images/boss_rig_overview01.png)
 
 * **Software:** Autodesk Maya2026
 
@@ -85,7 +86,9 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 
 ---
 
-### Non-Humanoid Structure
+### Beam Emitter
+
+
 ![Back Parts Control](docs/gifs/back_parts_control.gif)
 
 モデルの形状と実際に必要となる動きを確認しながら、
