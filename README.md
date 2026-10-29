@@ -86,7 +86,7 @@ Autodesk Mayaで制作した、**非人型ボスキャラクター用のリグ**
 
 ---
 
-### Beam Emitter
+### Non-Humanoid Structure
 
 
 ![Back Parts Control](docs/gifs/back_parts_control.gif)
